@@ -1,0 +1,29 @@
+.container-style {
+    background-color: #EAF2F8;
+    height: 5.5em;
+}
+
+.navbar-collapse {
+    
+    justify-content: end;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    gap: 2em;    
+}
+
+.nav-link {
+    color: black;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-collapse {
+        display: flex;        
+        justify-content: center;
+        height: 400px;    
+        background-color: white;
+        border: 1px solid lightslategray;        
+        border-radius: 10px;
+    }
+}
+
+
+
