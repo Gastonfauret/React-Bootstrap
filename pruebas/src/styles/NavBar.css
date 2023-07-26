@@ -3,11 +3,16 @@
     height: 5.5em;
 }
 
-.navbar-collapse {
-    
+.logo-gula {
+    width: 6rem;
+    margin-left: 1rem;
+}
+
+.navbar-collapse {    
     justify-content: end;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     gap: 2em;    
+    margin-right: 1rem;
 }
 
 .nav-link {

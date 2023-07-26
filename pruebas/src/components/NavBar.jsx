@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/NavBar.css'
+import Gula from '../images/Logo Gula Rojo.png'
 
 function NavBar() {
     return (
         <Navbar expand="lg" className="container-style" fixed="top">
             <Container fluid className='barra-navegacion-container'>
-                <Navbar.Brand href="#">Logo de Producto</Navbar.Brand>
+                <img className='logo-gula' src={Gula} alt="Logo Gula Rojo"/>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
