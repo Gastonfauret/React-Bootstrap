@@ -1,5 +1,6 @@
 import '../components/App'
 import NavBar from './NavBar.jsx'
+import Hero from './Hero'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <section className='container-md'>
         <NavBar/>
-        
+        <Hero/>
       </section>
     </>
 

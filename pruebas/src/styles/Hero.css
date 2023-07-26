@@ -1,0 +1,11 @@
+body {
+    display: flex;    
+    justify-content: center;
+}
+
+.image-man-programming {       
+    border-radius: 2rem;
+    margin-top: 7em;
+    width: 90%;    
+}
+
