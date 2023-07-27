@@ -1,6 +1,8 @@
 import '../components/App'
 import NavBar from './NavBar.jsx'
 import Hero from './Hero'
+import CardPeople from './CardPeople'
+
 
 function App() {
 
@@ -8,7 +10,9 @@ function App() {
     <>
       <section className='container-md'>
         <NavBar/>
-        <Hero/>
+        <Hero/> 
+        <CardPeople/>
+          
       </section>
     </>
   )

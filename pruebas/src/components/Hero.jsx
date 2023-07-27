@@ -7,7 +7,6 @@ function Hero(props) {
     return (
         <>
             <div className="container-hero">
-
                 <div className="cards-container">
                     <Card
                         title='"Los errores en mi vida"'
@@ -19,7 +18,7 @@ function Hero(props) {
                         secundaryTitle='Project Manager de Gula'
                         content='Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Contrary to popular belief, Lorem Ipsum is not simply random text. Contrary to popular belief, Lorem Ipsum is not simply random text. .'
                     />
-                </div>
+                </div> nm
                 <Image className='image-man-programming' src={ImageMan} fluid />;
                 <div className="cards-container">
                     <Card
